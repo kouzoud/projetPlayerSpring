@@ -1,4 +1,4 @@
-package model;
+package org.example.spring.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -6,7 +6,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Player {
-    @Id 
+    @Id
     private Long id;
     private String name;
     private Long score;
